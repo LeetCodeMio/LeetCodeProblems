@@ -1,5 +1,5 @@
 from collections import deque
-class Solution :
+class Solution : # 广搜
 	def levelOrder(self, root) :
 		if not root : return []
 		ret = []
